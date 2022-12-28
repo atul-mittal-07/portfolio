@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atul Mittal</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <script
+      src="https://kit.fontawesome.com/d3e201e179.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" alt="logo" />
+          <ul id="sidemenu">
+            <li onClick="closeMenu()"><a href="#header">Home</a></li>
+            <li onClick="closeMenu()"><a href="#about">About</a></li>
+            <li onClick="closeMenu()"><a href="#services">Services</a></li>
+            <li onClick="closeMenu()"><a href="#portfolio">Portfolio</a></li>
+            <li onClick="closeMenu()"><a href="#contact">CV</a></li>
+            <li onClick="closeMenu()"><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onClick="closeMenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onClick="openMenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Atul Mittal</p>
+          <h1>Hi, I'm a <span>Frontend<br>Developer </span>From India</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user.png" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hi there! My name is Atul Mittal and I am a frontend developer
+              with 3+ years of relevant experience in the frontend development
+              and total of 6+ years in Software development field. I received my
+              bachelor's degree in Computer Science from Kurukshetra University
+              and have since worked for a range of companies, including Walmart,
+              HP and SAP Labs where I have gained extensive experience in
+              developing and maintaining web applications and other sort of
+              applications.<br />
+              In my current role at Walmart, I specialize in building intuitive
+              and visually appealing user interfaces using technologies such as
+              HTML, CSS, and JavaScript. I am also proficient in frameworks such
+              as React and Angular, and have experience working with responsive
+              design principles to ensure that my designs look great on all
+              devices. In addition to my technical skills, I am a strong
+              problem-solver and thrive in fast-paced, collaborative
+              environments. I am constantly looking for new ways to improve my
+              skills and stay up-to-date with the latest technologies and best
+              practices in the field. <br />In my free time, I enjoy staying
+              active and exploring the outdoors. I also have a passion for music
+              and playing Badminton in my spare time.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onClick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onClick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onClick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Web Development</span><br />Web app Development</li>
+                <li><span>UI/UX</span><br />Designing Web/App Interfaces</li>
+                <li>
+                  <span>App Development</span><br />Building Android/iOS apps
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2020 - Current</span><br />Software Engineer III at
+                  Walmart
+                </li>
+                <li>
+                  <span>2019 - 2020</span><br />Software Developer at Mobile
+                  Programming LLC
+                </li>
+                <li>
+                  <span>2018 - 2019</span><br />Software Engineer at Tricon
+                  Infotech
+                </li>
+                <li>
+                  <span>2016 - 2018</span><br />Software Engineer at
+                  DXC.technologies
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2016</span><br />Computer Science and Engineering,
+                  Kurukshetra University
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- services -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <a href="#contact"><span class="contactme">Contact Me</span></a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <a href="#contact"><span class="contactme">Contact Me</span></a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Development</h2>
+            <a href="#contact"><span class="contactme">Contact Me</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- portfolio -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.jpeg" alt="" />
+            <div class="layer">
+              <h3>Appointment Scheduling App</h3>
+              <p>
+                This is a Pet Hospital Appointment App designed in React. It includes several features like Search, CRUD Operation, Sorting and many more..
+              </p>
+              <a href="https://dazzling-cactus-4f3e0d.netlify.app/" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.jpeg" alt="" />
+            <div class="layer">
+              <h3>Musical TicTacToe App</h3>
+              <p>
+                Musical TicTacToe Game created in HTML, CSS and Vanilla JS
+              </p>
+              <a href="https://snazzy-chaja-e1d005.netlify.app" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.jpeg" alt="" />
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>
+                A song playing app. It typically includes play/pause, previous, next and mute/unmute functionality.
+              </p>
+              <a href="https://musicapp-am.netlify.app/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/atul-mittal-07" target = "_blank" class="btn">See more <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
+
+    <!-- contact -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i> <a href="mailto:atulmittal0795@gmail.com">atulmittal0795@gmail.com</a>
+            </p>
+            <p><i class="fa-solid fa-phone"></i> <a href="tel:+91-8295590454">+91-8295590454</a></p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/atulmittal07/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/atul-mittal-07" target="_blank"
+                ><i class="fa-brands fa-github"></i></i
+              ></a>
+              <a href="https://medium.com/@atulmittal0795" target="_blank"
+                ><i class="fa-brands fa-medium"></i></i
+              ></a>
+            </div>
+            <a href="images/Resume Atul Mittal.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>
+          Copyright © Atul Mittal. Made with
+          <i class="fa-solid fa-heart"></i> using HTML, CSS and JS.
+        </p>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
