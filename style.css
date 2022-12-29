@@ -439,11 +439,21 @@ form .btn2 {
     display: block;
     margin: 25px;
   }
+
+  nav ul li a {
+    margin-bottom: 20px;
+    width: 100%;
+    display: inline-block;
+    cursor: pointer;
+  }
+
   nav ul .fas {
     position: absolute;
     top: 25px;
     left: 25px;
     cursor: pointer;
+    width: 100%;
+    display: inline-block;
   }
 
   .sub-title {
