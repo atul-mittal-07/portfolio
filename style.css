@@ -523,10 +523,10 @@ form .btn2 {
 
   .skills-item {
     background: #fff;
-    width: 116px;
+    width: 100px;
     text-align: center;
     border-radius: 6px;
-    padding: 36px 15px 23px 15px;
+    padding: 36px 20px 20px 20px;
     margin: 20px;
     border: 1px solid #ff004f;
   }
