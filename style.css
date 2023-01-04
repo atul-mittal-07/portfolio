@@ -161,6 +161,38 @@ nav .fas {
   font-size: 14px;
 }
 
+.skills-item-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+
+.skills-item {
+  background: #fff;
+  width: 161px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 36px 0 22px 0;
+  margin: 20px;
+  border: 1px solid #ff004f;
+}
+
+.skills-item-img-wrapper {
+  height: 91px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills-item-title {
+  font-size: 15px;
+  margin-top: 10px !important;
+  color: #B24667;
+}
+
 .tab-contents {
   display: none;
 }
@@ -487,6 +519,16 @@ form .btn2 {
   .tab-links {
     font-size: 16px;
     margin-right: 20px;
+  }
+
+  .skills-item {
+    background: #fff;
+    width: 116px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 36px 15px 23px 15px;
+    margin: 20px;
+    border: 1px solid #ff004f;
   }
 
   .work img {
