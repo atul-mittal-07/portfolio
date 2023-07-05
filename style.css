@@ -98,7 +98,7 @@ nav .fas {
 }
 
 .about-col-1 {
-  flex-basis: 35%;
+  flex-basis: 30%;
 }
 
 .about-col-1 img {
@@ -110,10 +110,14 @@ nav .fas {
   flex-basis: 60%;
 }
 
+.about-text {
+  margin-top: 50px;
+}
+
 .about-col-2 p {
   margin-top: 25px;
   font-size: 25px;
-  text-align: justify;
+  /* text-align: center; */
   margin-bottom: 10px;
 }
 
@@ -498,13 +502,16 @@ form .btn2 {
     font-size: 40px;
   }
 
-  .about-col-1,
   .about-col-2 {
     flex-basis: 100%;
   }
 
+  .about-text{
+    margin-top: 100px;
+  }
+
   .about-col-1 {
-    margin-bottom: 30px;
+    display: none;
   }
 
   .about-col-2 {
